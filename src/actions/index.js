@@ -1,6 +1,6 @@
 import {getData,postData,value2pathname} from '../other/tools'
 import mockData from '../other/mock'
-
+let timer;
 
 export const action_getNavList=(section,argObj)=>(dispatch,getState)=>{
     /**
@@ -125,9 +125,10 @@ export const action_getSectionContent=(section,argObj)=>(dispatch,getState)=>{
     }
 }
 export const action_autoPop=(data,delay=5000,status)=>(dispatch)=>{
-    clearTimeout(this.timer)
+
+    clearTimeout(timer)
     dispatch(action_turnonPop(data,status));
-    this.timer=setTimeout(()=>{
+    timer=setTimeout(()=>{
         dispatch(action_turnoffPop())
     },delay)
 }
