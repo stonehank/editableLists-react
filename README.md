@@ -1,6 +1,6 @@
 项目通过create-react-app创建
 
-### [DEMO](https://codesandbox.io/s/github/stonehank/editableList-react)
+### [DEMO](https://codesandbox.io/s/github/stonehank/editableLists-react)
 
 #### 运行
 `npm install`
