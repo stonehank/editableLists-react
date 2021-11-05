@@ -34,3 +34,4 @@
 3. 内容(detail)：具体内容可以‘增删改’，detail标题和具体内容就是<Link>和<Route>，具体见Sections文件夹下detail和editdetail
 4. 搜索(search)：非受控组件，具体见Search文件夹
 5. 其他：基本就这些了，其他也就是prompt弹框，成功失败提示，loading提示等
+6. 一个修改测试  
